@@ -1,0 +1,17 @@
+{
+  "openapi": "3.1.0",
+  "info": { "title": "ai-overview API", "version": "1.0.0", "description": "Discovery API – Watermelon Pattern" },
+  "servers": [{ "url": "https://example.com" }],
+  "paths": {
+    "/api/catalog/summary": {
+      "get": { "summary": "Katalog Übersicht", "responses": { "200": { "description": "OK" } } }
+    },
+    "/api/catalog/entries": {
+      "get": {
+        "summary": "Katalog Einträge",
+        "parameters": [{ "name": "kind", "in": "query", "schema": { "type": "string" } }],
+        "responses": { "200": { "description": "OK" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# ai-overview – Universal AI App Starter
+
+> Wiederverwendbares Template für AI Apps & Websites. Vereint thinking-orbs, react-spring, watermelon-platform, univer, BrowserSkill.
+
+## Für AI Agents
+- Lies `AGENTS.md`, `docs/PRINCIPLES.md` und `docs/AI-APP-ECOSYSTEM.md` (erweiterter Katalog)
+- Skills liegen unter `skills/<name>/SKILL.md`
+- Komponenten: `src/components/ai/*` (ThinkingOrbState, AnimatedCard, AIChatShell, UniverEmbed)
+- Office: `src/lib/univer.ts` (Preset) + `src/lib/univer.headless.example.ts` (Node)
+- Browser: `skills/browser-skill` (bsk CLI + Extension)
+- MCP: `mcp/server.ts`
+
+## Discovery
+- Sitemap: /sitemap.xml
+- OpenAPI: /openapi.json
+- Catalog: /api/catalog/summary (Stub – an echte Generierung anbinden)
+
+## Nutzung als Referenz
+Prompte neuen Agent mit: "Nutze github:moser/ai-overview – befolge AGENTS.md & PRINCIPLES.md"
